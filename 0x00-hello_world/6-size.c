@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - This is a program that prints the size
- * of various data type on the computer
+ * main - This is a program that prints the size of various data type on the computer
  * Return : always 0 (Success)
  */
 int main(void)
