@@ -14,7 +14,7 @@ int main(void)
 	/* write the character to stdout */
 	for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 		putchar (upper_case);
-	putchar('\n');
+
 	for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 		putchar (lower_case);
 	putchar('\n');
