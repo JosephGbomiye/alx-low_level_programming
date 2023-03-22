@@ -16,7 +16,7 @@ int main(void)
 
 	for (count = 0; count < 92; count++)
 	{
-	sun = fib1 + fib2;
+	sum = fib1 + fib2;
 	printf("%lu, ", sum);
 	fib1 = fib2;
 	fib2 = sum;
@@ -44,4 +44,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-)
+}
