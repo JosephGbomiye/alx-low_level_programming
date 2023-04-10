@@ -11,6 +11,7 @@
 int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
+
 	i = 0;
 	d = 0;
 	n = 0;
@@ -51,6 +52,7 @@ int main(int argc, char *argv[])
 
 {
 	int result, num1, num2;
+
 	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
